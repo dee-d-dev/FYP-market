@@ -31,14 +31,30 @@ const Home = () => {
 
       <div className="navigation">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Fruits & Vegetables</li>
-          <li>Shop</li>
-          <li>FAQ</li>
-          <li>Contact</li>
-          <li>Login</li>
-          <li className="create-acc">Create a Free Account</li>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Fruits & Vegetables</a>
+          </li>
+          <li>
+            <a href="">Shop</a>
+          </li>
+          <li>
+            <a href="">FAQ</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+          <li>
+            <a href="">Login</a>
+          </li>
+          <li className="create-acc">
+            <a href="">Create a Free Account</a>
+          </li>
           <li className="love">
             <img src="/love.png" alt="" onClick={(e) => setLike(like + 1)} />
             <div className="love-count">{like}</div>
