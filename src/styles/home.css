@@ -5,6 +5,10 @@
   font-family: poppins;
 }
 
+body{
+  background: white;
+}
+
 a {
   cursor: pointer;
   color: black;
@@ -155,6 +159,7 @@ a {
 
 .item-show {
   margin-bottom: 1rem;
+  background-color: white;
 }
 
 .item-show ul {

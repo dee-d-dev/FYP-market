@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/home.css";
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 
 const items = ["a", "b", "c", "d"];
 
@@ -53,7 +54,7 @@ const Home = () => {
             <a href="">Login</a>
           </li>
           <li className="create-acc">
-            <a href="">Create a Free Account</a>
+            <Link to="/sign-in">Create a Free Account</Link>
           </li>
           <li className="love">
             <img src="/love.png" alt="" onClick={(e) => setLike(like + 1)} />
