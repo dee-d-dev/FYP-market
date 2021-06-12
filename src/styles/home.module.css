@@ -5,7 +5,7 @@
   font-family: poppins;
 }
 
-body{
+body {
   background: white;
 }
 
@@ -23,11 +23,11 @@ a {
   padding: 1rem 1rem;
 }
 
-.search-section {
+.search_section {
   display: flex;
 }
 
-.search-section input {
+.search_section input {
   background-color: #fff;
   border: none;
   width: 30rem;
@@ -36,7 +36,7 @@ a {
   border-radius: 0.5rem 0 0 0.5rem;
 }
 
-.search-btn button {
+.search_btn button {
   background-color: #ffb801;
   color: white;
   border: none;
@@ -44,9 +44,9 @@ a {
   border-radius: 0 0.5rem 0.5rem 0;
 }
 
-.cart-icon{
+.cart_icon {
   background-color: white;
-  padding: .8rem .5rem 1rem .5rem;
+  padding: 0.8rem 0.5rem 1rem 0.5rem;
   width: 3rem;
   height: 3rem;
   border-radius: 2rem;
@@ -54,17 +54,17 @@ a {
   position: relative;
 }
 
-.item-count{
-  background-color: #FFB801;
+.item_count {
+  background-color: #ffb801;
   position: absolute;
   color: white;
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 2rem;
-  padding: .1rem 0;
-  top: .8rem;
+  padding: 0.1rem 0;
+  top: 0.8rem;
   left: 2.4rem;
-  font-size: .6rem;
+  font-size: 0.6rem;
   font-style: bold;
   font-weight: 900;
 }
@@ -89,29 +89,29 @@ a {
 .love {
   position: relative;
 }
-.love-count{
-  background-color: #FFB801;
+.love_count {
+  background-color: #ffb801;
   position: absolute;
   color: white;
-  width: .9rem;
-  height: .9rem;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 2rem;
 
   top: 0rem;
   left: 1.3rem;
-  font-size: .6rem;
+  font-size: 0.6rem;
   font-style: bold;
   font-weight: 900;
   text-align: center;
 }
 
-.create-acc {
+.create_acc {
   background-color: #08862d;
   padding: 0.7rem 2rem;
   border-radius: 0.5rem;
 }
 
-.d-b-top {
+.d_b_top {
   background: linear-gradient(rgba(17, 15, 15, 0.5), rgba(0, 0, 0, 0.5)),
     url("/src/Image.png");
   background-size: cover;
@@ -122,7 +122,7 @@ a {
   color: white;
 }
 
-.d-b-top h1 {
+.d_b_top h1 {
   font-size: 5rem;
   font-family: poppins;
   font-weight: 700;
@@ -131,7 +131,7 @@ a {
   /* font-style: bold; */
 }
 
-.d-b-top h1 span {
+.d_b_top h1 span {
   font-style: italic;
   font-size: 4.5rem;
 }
@@ -145,7 +145,7 @@ a {
   margin: 0 12rem;
 }
 
-.shop-btn {
+.shop_btn {
   background-color: #08862d;
   outline: none;
   border: none;
@@ -157,12 +157,12 @@ a {
   cursor: pointer;
 }
 
-.item-show {
+.item_show {
   margin-bottom: 1rem;
   background-color: white;
 }
 
-.item-show ul {
+.item_show ul {
   display: flex;
   list-style-type: none;
   box-shadow: 0 2px 20px 1px rgba(78, 78, 78, 0.459);
@@ -171,13 +171,13 @@ a {
   justify-content: space-around;
 }
 
-.item-show ul li {
+.item_show ul li {
   text-align: center;
 }
 
 /* section 2 */
 
-.section-2 {
+.section_2 {
   background-color: #f9f9f9;
   padding: 2rem 0;
 }
@@ -195,68 +195,59 @@ a {
   color: #686868;
 }
 
-.item-cards {
+.item_cards {
   margin: 1.5rem 8rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
 }
 
-.item-card {
+.item_card {
   height: 25rem;
   box-shadow: 0px 5px 15px 2px rgb(150, 145, 145);
   padding: 2rem 2rem;
   background-color: #fff;
 }
 
-.vegetables-card {
+.vegetables_card {
   background-image: url("../vegetables.png");
   background-position-x: 15rem;
   background-position-y: 9rem;
   background-size: 60%;
   background-repeat: no-repeat;
+
+  height: 25rem;
+  box-shadow: 0px 5px 15px 2px rgb(150, 145, 145);
+  padding: 2rem 2rem;
+  background-color: #fff;
 }
 
-.fresh-fruits-card {
+.fresh_fruits_card {
   background-image: url("../pineapple.png");
   background-position-x: 0rem;
   background-position-y: 0rem;
   background-size: 34rem 26rem;
   background-repeat: no-repeat;
+
+  height: 25rem;
+  box-shadow: 0px 5px 15px 2px rgb(150, 145, 145);
+  padding: 2rem 2rem;
+  background-color: #fff;
 }
 
-.item-text p {
+.item_text p {
   font-size: 3rem;
   font-family: "Big Shoulders Stencil Display", cursive;
 }
 
 .vegetable {
   color: #5e9b09;
+  font-style: bold;
 }
 
-.vegetable-btn {
+.vegetable_btn {
   background-color: #5e9b09;
-}
 
-.fresh-fruits {
-  color: #ffb801;
-}
-
-.fresh-fruits-btn {
-  background-color: #ffb801;
-}
-
-.item-1 {
-  /* background-image: url("../vegetables.png"); */
-  background-size: cover;
-}
-
-.item-2 {
-  /* background-image: url("../vegetables.png"); */
-  background-size: cover;
-}
-
-.learn-btn {
   border: none;
   padding: 0.7rem 2rem;
   border-radius: 3rem;
@@ -265,16 +256,52 @@ a {
   cursor: pointer;
 }
 
-.best-sell {
+.fresh_fruits {
+  color: #ffb801;
+
+  font-style: bold;
+}
+
+.fresh_fruits_btn {
+  background-color: #ffb801;
+
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 3rem;
+  color: white;
+  transform: translateY(8rem);
+  cursor: pointer;
+}
+
+.item_1 {
+  /* background-image: url("../vegetables.png"); */
+  background-size: cover;
+}
+
+.item_2 {
+  /* background-image: url("../vegetables.png"); */
+  background-size: cover;
+}
+
+.learn_btn {
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 3rem;
+  color: white;
+  transform: translateY(8rem);
+  cursor: pointer;
+}
+
+.best_sell {
   margin: 0 8rem;
   box-shadow: 1px 1px 4px 2px rgba(139, 139, 139, 0.568);
 }
-.best-sell h1 {
+.best_sell h1 {
   text-align: center;
   font-style: bold;
 }
 
-.best-items {
+.best_items {
   display: flex;
   justify-content: space-around;
   padding: 1rem 2rem;
@@ -286,7 +313,7 @@ a {
   font-weight: 900;
 }
 
-.item-img {
+.item_img {
   width: 10rem;
   height: 10rem;
   background-color: white;
@@ -294,19 +321,19 @@ a {
   margin-bottom: 1rem;
 }
 
-.item-name {
+.item_name {
   font-style: bold;
 }
 
 /* SECTION 3 */
 
-.section-3 {
+.section_3 {
   text-align: center;
   background-color: #f9f9f9;
   height: 50rem;
 }
 
-.s-3-top {
+.s_3_top {
   background: linear-gradient(rgba(26, 25, 25, 0.89), rgba(59, 56, 56, 0.452)),
     url("/src/super-market.png");
   background-size: cover;
@@ -317,7 +344,7 @@ a {
   text-align: center;
 }
 
-.s-3-top .text {
+.s_3_top .text {
   font-size: 0.8rem;
 
   text-align: center;
@@ -332,18 +359,18 @@ a {
   box-shadow: 2px 2px 5px 1px rgba(151, 149, 149, 0.76);
 }
 
-.deals-item {
+.deals_item {
   display: flex;
   justify-content: space-around;
   padding: 3rem 2rem;
 }
 
-.d-item {
+.d_item {
   text-align: center;
   font-weight: 900;
 }
 
-.d-item-img {
+.d_item_img {
   width: 10rem;
   height: 12rem;
   background-color: white;
@@ -351,7 +378,7 @@ a {
   margin-bottom: 1rem;
 }
 
-.d-item-name {
+.d_item_name {
   font-style: bold;
   font-weight: 900;
 }
@@ -371,31 +398,31 @@ a {
   text-align: left;
 }
 
-.service-icon{
-  border: 2px solid #08862D;
+.service_icon {
+  border: 2px solid #08862d;
   border-radius: 2rem;
   width: 3rem;
   height: 3rem;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
   margin-right: 1rem;
 }
-.service-head {
+.service_head {
   color: #08862d;
 }
 
-.service-info {
+.service_info {
   width: 80%;
   font-size: 0.8rem;
 }
 
 /* SECTION 4 */
 
-.section-4 {
+.section_4 {
   background-color: #f9f9f9;
   /* margin-top: 7px; */
 }
 
-.company-infos {
+.company_infos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.74)),
     url("/src/footer.png");
   background-size: cover;
@@ -407,12 +434,12 @@ a {
   list-style: none;
 }
 
-.company-infos h3 {
+.company_infos h3 {
   color: #08862d;
   margin-bottom: 1rem;
 }
 
-.company-infos ul li {
+.company_infos ul li {
   list-style-type: none;
 }
 
@@ -430,11 +457,11 @@ a {
   margin-bottom: 1rem;
 }
 
-.detail_icon{
-  margin-right: .5rem;
+.detail_icon {
+  margin-right: 0.5rem;
 }
 
-.social-media {
+.social_media {
   display: flex;
   justify-content: space-around;
 }
