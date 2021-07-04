@@ -51,10 +51,10 @@ const Home = () => {
             <a href="">Contact</a>
           </li>
           <li>
-            <a href="">Login</a>
+            <Link to="/sign-in">Login</Link>
           </li>
-          <li className={HomeCSS.create_acc}>
-            <Link to="/sign-in">Create a Free Account</Link>
+          <li className={HomeCSS.create_acc_btn}>
+            <Link to="/sign-up">Create a Free Account</Link>
           </li>
           <li className={HomeCSS.love}>
             <img src="/love.png" alt="" onClick={(e) => setLike(like + 1)} />

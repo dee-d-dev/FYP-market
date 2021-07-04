@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import SignIn from "./pages/Sign-in";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUp from "./pages/Sign-up";
+import ResetPassword from "./pages/ResetPassword";
+
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
 
           <Route path="/Sign-up">
             <SignUp />
+          </Route>
+
+          <Route path="/ResetPassword">
+            <ResetPassword />
           </Route>
         </Switch>
       </Router>
