@@ -1,0 +1,30 @@
+.header {
+  background: #eff7fa;
+  height: 70px;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.page_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)),
+    url("../shop_bg.png");
+  height: 20rem;
+  object-fit: contain;
+  color: white;
+}
+
+.main {
+  background-color: #f9f9f9;
+  height: 100rem;
+}

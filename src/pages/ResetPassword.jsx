@@ -19,7 +19,7 @@ const ResetPassword = () => {
             <label htmlFor="email address">Enter your e-mail address</label>
 
             <div className={ResetCSS.form_Input}>
-              <input type="password" id="email address" />
+              <input type="email" id="email address" />
             </div>
 
             <button type="submit" className={ResetCSS.login_Btn}>

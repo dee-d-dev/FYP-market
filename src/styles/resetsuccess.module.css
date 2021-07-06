@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(rgba(77, 72, 72, 0.658), rgba(94, 92, 92, 0.541)),
+    url("/src/sign-in.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+
+.modal {
+  background-color: #fff;
+  width: 45rem;
+  margin: 1rem auto 4rem auto;
+  border-radius: 1rem;
+}
+
+.logo {
+  margin: 3rem 43% 0rem 43%;
+}
+
+.modal_Section_1 {
+  padding: 2rem 6rem;
+}
+
+.modal_Section_img {
+  margin: 3rem 14rem 1rem 16rem;
+  width: 100px;
+}
+
+.modal_Section_1 h2 {
+  color: #08862d;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+
+.modal_Section_1 p {
+  color: #686868;
+  font-size: 9px;
+  padding: 0 6rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.modal_Section_1 a {
+  color: #08862d;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.login_Btn {
+  width: 100%;
+  border: none;
+  background-color: #08862d;
+  box-shadow: 0px 4px 5px rgba(100, 100, 100, 0.498039);
+  padding: 0.6rem 0rem;
+  border-radius: 0.3rem;
+  color: white;
+  margin: 5rem 0 10rem 0;
+}
