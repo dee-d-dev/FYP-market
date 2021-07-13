@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(rgba(77, 72, 72, 0.658), rgba(94, 92, 92, 0.541)),
+    url("/src/sign-in.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+
+.modal {
+  background-color: #fff;
+  width: 40rem;
+  margin: 1rem auto 2rem auto;
+  border-radius: 1rem;
+  padding-top: 2rem;
+}
+
+.brand_Logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal_Section_1 {
+  padding: 2rem 3rem;
+}
+.modal_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.modal_header h2 {
+  color: #08862d;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.modal_header p {
+  color: #aeaeae;
+  padding: 0 7rem;
+  font-size: 0.8rem;
+}
+
+.modal_form {
+  margin: 0 5rem;
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+
+.modal_form label,
+.modal_form input {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form_first_row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form_first_row .form_input:not(:last-child) {
+  margin-right: 1rem;
+}
+.modal_form label {
+  color: #bdb8b8;
+  font-size: 0.8rem;
+}
+
+.modal_form input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1.5rem;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  color: #949191;
+}
+
+.modal_form input::placeholder {
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  color: #949191;
+}
+
+.modal_form select {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  font-size: 1rem;
+  color: #949191;
+  outline: none;
+  box-shadow: 0px 2px 3px 1px rgba(126, 125, 125, 0.562);
+}
+
+/* .form_input {
+  justify-content: center;
+} */
+
+.choice p {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  font-weight: 900;
+  color: #686868;
+}
+
+.buttons {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.choice_buttons {
+  width: 30rem;
+}
+
+.seller_acc_btn {
+  background-color: #08862d;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 1rem;
+  width: 50%;
+  border-radius: .3rem 0 0 .3rem;
+}
+
+.buyer_acc_btn {
+  border: 1px solid #08862d;
+  outline: none;
+  color: #08862d;
+  padding: 0.4rem 1rem;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 0 .3rem .3rem 0;
+
+}
+.terms {
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  /* margin: 1rem 0; */
+
+}
+.terms p {
+  color: #686868;
+  margin-left: 0.3rem;
+  font-size: .8rem;
+}
+
+.terms a {
+  color: #08862d;
+}
+
+.terms input[type='checkbox']{
+  width: 25px !important;
+  height: 15px !important;
+  /* margin: 5px; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #08862d;
+  box-shadow: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  background-color: #08862d;
+  border-radius: .1rem;
+}
+
+
+.terms input[type='checkbox']:checked::after {
+  content: '✔';
+  color: white;
+}
