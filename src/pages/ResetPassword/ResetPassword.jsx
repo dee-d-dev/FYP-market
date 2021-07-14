@@ -3,6 +3,7 @@ import ResetCSS from "./resetpassword.module.css";
 
 const ResetPassword = () => {
   return (
+    <div>
     <div className={ResetCSS.container}>
       <div className={ResetCSS.modal}>
         <img src="/logo Copy.png" width="80px" alt="" className={ResetCSS.logo}/>
@@ -38,6 +39,13 @@ const ResetPassword = () => {
           </div>
         </div>
       </div>
+    </div>
+    <div class={ResetCSS.online__project}>
+      <div>
+          Project is an ongoing project <br/><br/>
+          Please Kindly Check My Ongoing Project on Desktop Mode
+      </div>
+    </div>
     </div>
   );
 };

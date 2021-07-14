@@ -2,7 +2,13 @@ import React from "react";
 import HomeCSS from "./home.module.css";
 import { useState } from "react";
 import {Link} from 'react-router-dom'
-
+import logo from '../../images/logo.png'
+import cart from '../../images/icons/cart.png'
+import shape from '../../images/icons/shape.png'
+import banana from '../../images/secondnav/banana.png'
+import rice from '../../images/secondnav/rice.png'
+import refrigerator from '../../images/secondnav/refrigerator.png'
+import harvest from '../../images/secondnav/harvest.png'
 const items = ["a", "b", "c", "d"];
 
 const Home = () => {
@@ -12,7 +18,7 @@ const Home = () => {
     <div>
       <div className={HomeCSS.header}>
         <div className={HomeCSS.brand}>
-          <img src="/logo.png" width="100px" alt="" />
+          <img src={logo} width="100px" alt="" />
         </div>
 
         <div className={HomeCSS.search_section}>
@@ -25,7 +31,7 @@ const Home = () => {
         </div>
 
         <div className={HomeCSS.cart_icon}>
-          <img src="/cart icon.png" alt="" />
+          <img src={cart} alt="" />
           <div className={HomeCSS.item_count}>{count}</div>
         </div>
       </div>
@@ -57,7 +63,7 @@ const Home = () => {
             <Link to="/sign-up">Create a Free Account</Link>
           </li>
           <li className={HomeCSS.love}>
-            <img src="/love.png" alt="" onClick={(e) => setLike(like + 1)} />
+            <img src={shape} alt="" onClick={(e) => setLike(like + 1)} />
             <div className={HomeCSS.love_count}>{like}</div>
           </li>
         </ul>
@@ -86,19 +92,19 @@ const Home = () => {
           <div className={HomeCSS.item_show}>
             <ul>
               <li>
-                <img src="/banana.png" alt="banana" width="80px" />
+                <img src={banana} alt="banana" width="80px" />
                 <p>Fruits & Vegetables</p>
               </li>
               <li>
-                <img src="/harvest.png" alt="banana" width="80px" />
+                <img src={harvest} alt="banana" width="80px" />
                 <p>Groceries & Staples</p>
               </li>
               <li>
-                <img src="/rice.png" alt="banana" width="80px" />
+                <img src={rice} alt="banana" width="80px" />
                 <p>Food Stuffs</p>
               </li>
               <li>
-                <img src="/refrigerator.png" alt="banana" width="80px" />
+                <img src={refrigerator} alt="banana" width="80px" />
                 <p>Meat, Frozens and more</p>
               </li>
             </ul>
@@ -326,6 +332,13 @@ const Home = () => {
             <div className={HomeCSS.instagram}>IG icon</div>
             <div className={HomeCSS.twitter}>Twitter icon</div>
           </div>
+        </div>
+      </div>
+    
+      <div class={HomeCSS.online__project}>
+        <div class={HomeCSS.online__div}>
+            Project is an ongoing project <br/><br/>
+            Please Kindly Check My Ongoing Project on Desktop Mode
         </div>
       </div>
     </div>

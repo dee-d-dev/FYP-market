@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar, Footer} from '../../component'
-import {HeroBanner, HeroText, HeroHeader, HeroDescription, ShopContainer, ShopRight, ShopLeft, ShopCartOne,ShopProductContainer, ShopProductOne, ShopProductOneImg, ShopProductAddToCart, ShopProductTitle, ShopProductPrice, ShopProductBanner, ShopProductBannerText,ShopArrowContainer, Arrow,ShopCatergories,Search, SearchInput, CatTitle, CatSectionContainer, CatSection, CatSubTitle, CatSubCount, SearchContainer, SearchBack,BestSeller, BestContainer, BestTitle, BestRow, BestImageCon, BestImage, BestDesc, BestDescTitle, BestDescPrice,Cart,CartHeader, NoProduct,STag, STagHeader, STagCon, STagTitle} from './ShopProduct_element'
+import {HeroBanner, HeroText, HeroHeader, HeroDescription, ShopContainer, ShopRight, ShopLeft, ShopCartOne,ShopProductContainer, ShopProductOne, ShopProductOneImg, ShopProductAddToCart, ShopProductTitle, ShopProductPrice, ShopProductBanner, ShopProductBannerText,ShopArrowContainer, Arrow,ShopCatergories,Search, SearchInput, CatTitle, CatSectionContainer, CatSection, CatSubTitle, CatSubCount, SearchContainer, SearchBack,BestSeller, BestContainer, BestTitle, BestRow, BestImageCon, BestImage, BestDesc, BestDescTitle, BestDescPrice,Cart,CartHeader, NoProduct,STag, STagHeader, STagCon, STagTitle,OngoingProject, OngoingDiv} from './ShopProduct_element'
 import GreenLimes from '../../images/product/GreenLimes_jrodle.png'
 import Leave from '../../images/product/5efbd0e39f63c.png'
 import Mango from '../../images/product/Mangoes_ruaapa.png'
@@ -389,6 +389,13 @@ export default function ShopProduct() {
                 </ShopRight>
             </ShopContainer>
             <Footer/>
+
+            <OngoingProject>
+                <OngoingDiv>
+                    Project is an ongoing project <br/><br/>
+                    Please Kindly Check My Ongoing Project on Desktop Mode
+                </OngoingDiv>
+            </OngoingProject>
         </>
     )
 }

@@ -6,7 +6,7 @@
 
 .container {
   background: linear-gradient(rgba(77, 72, 72, 0.658), rgba(94, 92, 92, 0.541)),
-    url("/src/sign-in.png");
+    url("../../images/sign-in.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1rem;
@@ -224,4 +224,42 @@
   justify-content: space-around;
   align-content: center;
   cursor: pointer;
+}
+
+
+.ongoing__project{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  background-color: red;
+  display: none;
+}
+
+.online__div{
+  width: 70%;
+  background-color: #08862d;
+  position: absolute;
+  padding: 5rem 2rem;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width: 1144px){
+  .container{
+    display: none;
+  }
+
+  .online__project, .online__div{
+    display: block;
+  }
 }

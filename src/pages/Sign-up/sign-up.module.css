@@ -6,7 +6,7 @@
 
 .container {
   background: linear-gradient(rgba(77, 72, 72, 0.658), rgba(94, 92, 92, 0.541)),
-    url("/src/sign-in.png");
+    url("../../images/sign-in.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1rem;

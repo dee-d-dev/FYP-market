@@ -113,7 +113,7 @@ a {
 
 .d_b_top {
   background: linear-gradient(rgba(17, 15, 15, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/src/Image.png");
+    url("../../images/Image.png");
   background-size: cover;
   height: 30rem;
   margin: 0;
@@ -335,7 +335,7 @@ a {
 
 .s_3_top {
   background: linear-gradient(rgba(26, 25, 25, 0.89), rgba(59, 56, 56, 0.452)),
-    url("/src/super-market.png");
+    url("../../images/super-market.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;
@@ -424,7 +424,7 @@ a {
 
 .company_infos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.74)),
-    url("/src/footer.png");
+    url("../../images/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 7rem 0rem;
@@ -464,4 +464,40 @@ a {
 .social_media {
   display: flex;
   justify-content: space-around;
+}
+
+.ongoing__project{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  display: none;
+}
+
+.online__div{
+  width: 70%;
+  background-color: #08862d;
+  position: absolute;
+  padding: 5rem 2rem;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width: 1144px){
+  .header, .navigation, .section_2, .section_3, .section_4,.section_1{
+    display: none;
+  }
+
+  .online__project, .online__div{
+    display: block;
+  }
 }

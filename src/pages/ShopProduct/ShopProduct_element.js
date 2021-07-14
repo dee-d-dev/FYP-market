@@ -8,6 +8,10 @@ export const HeroBanner = styled.div `
     height: 390px;
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: 1144px){
+        display: none;
+    }
 `
 
 export const HeroText = styled.div `
@@ -39,7 +43,11 @@ export const ShopContainer = styled(Container)`
     width: 90%;
     margin-top: 5rem;
     justify-content: space-between;
-    ${Container}
+    ${Container};
+
+    @media screen and (max-width: 1144px){
+        display: none !important;
+    }
 `;
 
 export const ShopLeft = styled.div `
@@ -343,3 +351,38 @@ export const STagTitle = styled.div `
     text-transform: capitalize;
 `
 /* ===========END SEARCH BY TAG  ==============*/
+
+
+export const OngoingProject = styled.div  `
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    display: none;
+
+    @media screen and (max-width: 1144px){
+        display: block !important;
+    }
+`
+
+export const OngoingDiv = styled.div `
+    width: 70%;
+    background-color: #08862d;
+    position: absolute;
+    padding: 5rem 2rem;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, 30%);
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    text-align: center;
+    display: none;
+
+    @media screen and (max-width: 1144px){
+        display: block !important;
+    }
+`
