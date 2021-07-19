@@ -28,29 +28,28 @@
 }
 
 .modal_Section_img {
-   margin: 3rem 14rem 1rem 16rem;
-   width: 100px
-
+  margin: 3rem 14rem 1rem 16rem;
+  width: 100px;
 }
 
 .modal_Section_1 h3 {
-    color: #08862D;
-    display: flex;
-    justify-content: center;
-    font-weight: 900;
-    font-size: 1.3rem;
+  color: #08862d;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.3rem;
 }
 
 .modal_Section_1 p {
-    color: #686868;
-    font-size: 13px;
-    padding: 0 6rem;
-    text-align: center;
+  color: #686868;
+  font-size: 13px;
+  padding: 0 6rem;
+  text-align: center;
 }
 
 .modal_Section_1 a {
-    color: #08862D;
-    display: flex;
-    justify-content: center;
-    margin-top: 10rem;
+  color: #08862d;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
 }

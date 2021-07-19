@@ -8,6 +8,7 @@ import Email from "./pages/Email";
 import ResetPasswordProcess from "./pages/ResetPasswordProcess";
 import ResetSuccess from "./pages/ResetSuccess";
 import Shop from "./pages/Shop";
+import AccountInfo from "./pages/AccountInfo";
 
 
 
@@ -46,6 +47,10 @@ function App() {
 
           <Route path="/Shop">
             <Shop />
+          </Route>
+
+          <Route path="/AccountInfo">
+            <AccountInfo/>
           </Route>
         </Switch>
       </Router>

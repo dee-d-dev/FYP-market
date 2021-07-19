@@ -5,7 +5,7 @@ const ResetPassword = () => {
   return (
     <div className={ResetCSS.container}>
       <div className={ResetCSS.modal}>
-        <img src="/logo Copy.png" width="80px" alt="" className={ResetCSS.logo}/>
+        <img src="/img/logo Copy.png" width="80px" alt="" className={ResetCSS.logo}/>
         <div className={ResetCSS.modal_Section_1}>
           <div className={ResetCSS.modal_Header}>
             <h2>Reset your password</h2>

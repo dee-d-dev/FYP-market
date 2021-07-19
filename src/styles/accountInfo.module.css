@@ -1,0 +1,210 @@
+.acc_body {
+  background-color: #faf6fd;
+  padding: 1rem 5rem 3rem 5rem;
+}
+
+.content {
+  display: flex;
+}
+
+.left {
+  margin-right: 1rem;
+  width: 18rem;
+}
+
+.left ul {
+  list-style: none;
+}
+
+.acc_functions {
+  margin-bottom: 2rem;
+}
+
+.acc_functions h2 {
+  background-color: green;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.acc_functions ul {
+  background-color: #fff;
+  padding: 1rem 0 1rem 2rem;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+.acc_functions li {
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: .9rem;
+}
+
+.acc_functions li p{
+    margin-left: 1rem;
+    color:#686868;
+}
+
+.transaction_details h3 {
+  margin-bottom: 1rem;
+}
+
+.transaction_details ul {
+  background-color: #fff;
+  padding: 1rem 0 1rem 3rem;
+}
+
+.transaction_details li {
+  margin-bottom: 1rem;
+}
+.transaction_details li p {
+  color: #686868;
+  font-size: 13px;
+}
+
+.transaction_details h2 {
+  background-color: green;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* RIGHT */
+.right {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
+
+.right h3 {
+  margin-bottom: 3rem;
+  color: #686868;
+  font-size: 1.5rem;
+}
+
+.upload {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.upload_btn button {
+  padding: 0.5rem 3rem;
+  background: transparent;
+  border: 2px solid #cdcbcb;
+  border-radius: 10px;
+}
+
+.upload_svg {
+  border-radius: 10px;
+  border: 2px solid #cdcbcb;
+  margin-left: 5px;
+  height: 2.5rem;
+  padding: 0rem 0.5rem;
+  text-align: center;
+  display: flex;
+}
+
+.acc_info {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.acc_details {
+  border: 1px solid #cdcbcb;
+  /* width: 50%; */
+}
+
+.acc_details_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cdcbcb;
+  padding: 0.5rem 1rem;
+}
+
+.acc_details h4 {
+  font-weight: 500;
+  color: #686868;
+}
+
+.acc_details_body {
+  padding: 1rem 7rem 1rem 1rem;
+}
+
+.profileName {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.usernameText {
+  margin-right: 0.5rem;
+  color: #686868;
+}
+
+.username {
+  color: #bdb8b8;
+}
+
+.acc_mail {
+  color: #aeaeae;
+  margin-bottom: 2rem;
+}
+.acc_name {
+  color: #686868;
+  margin-bottom: 0.5rem;
+}
+
+.change_password {
+  color: #08862d;
+  font-weight: 700;
+}
+
+/* ADDRESS book */
+
+.address_book {
+  border: 1px solid #cdcbcb;
+  width: 100%;
+  height: 15rem;
+  margin-left: 1rem;
+}
+
+.address_book_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cdcbcb;
+  padding: 0.5rem 1rem;
+}
+
+.address_book_header h4 {
+  font-weight: 500;
+  color: #686868;
+  
+}
+
+.address_book_body {
+  padding: 1rem 5rem 1rem 1rem;
+}
+
+.address_title{
+    color: #686868;
+    margin-bottom: 1rem;
+}
+
+.client_name{
+    color: #BDB8B8;
+    font-weight: 600;
+}
+.client_address{
+    font-size: .8rem;
+    color: #BDB8B8;
+}

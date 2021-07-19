@@ -6,13 +6,13 @@ const Email = () => {
     <div className={EmailCSS.container}>
       <div className={EmailCSS.modal}>
         <img
-          src="/logo Copy.png"
+          src="/img/logo Copy.png"
           width="80px"
           alt=""
           className={EmailCSS.logo}
         />
         <div className={EmailCSS.modal_Section_1}>
-            <img src="/cuate.png" alt="" className={EmailCSS.modal_Section_img} />
+            <img src="/img/cuate.png" alt="" className={EmailCSS.modal_Section_img} />
 
             <h3>Check your mail</h3>
 

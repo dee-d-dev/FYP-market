@@ -1,7 +1,8 @@
 import React from "react";
 import HomeCSS from "../styles/home.module.css";
 import { useState } from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
+import Footer from "../components/footer";
 
 const items = ["a", "b", "c", "d"];
 
@@ -12,7 +13,7 @@ const Home = () => {
     <div>
       <div className={HomeCSS.header}>
         <div className={HomeCSS.brand}>
-          <img src="/logo.png" width="100px" alt="" />
+          <img src="/img/logo.png" width="100px" alt="" />
         </div>
 
         <div className={HomeCSS.search_section}>
@@ -25,7 +26,7 @@ const Home = () => {
         </div>
 
         <div className={HomeCSS.cart_icon}>
-          <img src="/cart icon.png" alt="" />
+          <img src="/img/cart icon.png" alt="" />
           <div className={HomeCSS.item_count}>{count}</div>
         </div>
       </div>
@@ -42,7 +43,7 @@ const Home = () => {
             <a href="">Fruits & Vegetables</a>
           </li>
           <li>
-            <a href="">Shop</a>
+            <Link to="/shop">Shop</Link>
           </li>
           <li>
             <a href="">FAQ</a>
@@ -57,7 +58,7 @@ const Home = () => {
             <Link to="/sign-up">Create a Free Account</Link>
           </li>
           <li className={HomeCSS.love}>
-            <img src="/love.png" alt="" onClick={(e) => setLike(like + 1)} />
+            <img src="/img/love.png" alt="" onClick={(e) => setLike(like + 1)} />
             <div className={HomeCSS.love_count}>{like}</div>
           </li>
         </ul>
@@ -86,19 +87,19 @@ const Home = () => {
           <div className={HomeCSS.item_show}>
             <ul>
               <li>
-                <img src="/banana.png" alt="banana" width="80px" />
+                <img src="/img/banana.png" alt="banana" width="80px" />
                 <p>Fruits & Vegetables</p>
               </li>
               <li>
-                <img src="/harvest.png" alt="banana" width="80px" />
+                <img src="/img/harvest.png" alt="banana" width="80px" />
                 <p>Groceries & Staples</p>
               </li>
               <li>
-                <img src="/rice.png" alt="banana" width="80px" />
+                <img src="/img/rice.png" alt="banana" width="80px" />
                 <p>Food Stuffs</p>
               </li>
               <li>
-                <img src="/refrigerator.png" alt="banana" width="80px" />
+                <img src="/img/refrigerator.png" alt="banana" width="80px" />
                 <p>Meat, Frozens and more</p>
               </li>
             </ul>
@@ -109,7 +110,7 @@ const Home = () => {
       <div className={HomeCSS.section_2}>
         <div className={HomeCSS.location}>
           <p>Lagos</p>
-          <img src="/Group.png" width="50px" alt="" />
+          <img src="/img/Group.png" width="50px" alt="" />
         </div>
 
         <div className={HomeCSS.item_cards}>
@@ -132,9 +133,7 @@ const Home = () => {
               </div>
               <div className={HomeCSS.promo}>Get 80% OFF selected items</div>
 
-              <button className={HomeCSS.fresh_fruits_btn}>
-                LEARN MORE ›
-              </button>
+              <button className={HomeCSS.fresh_fruits_btn}>LEARN MORE ›</button>
             </div>
           </div>
         </div>
@@ -205,7 +204,7 @@ const Home = () => {
         <div className={HomeCSS.services}>
           <div className={HomeCSS.service}>
             <div className={HomeCSS.service_icon}>
-              <img src="/delivery-truck.png" width="30px" alt="" />
+              <img src="/img/delivery-truck.png" width="30px" alt="" />
             </div>
             <div className={HomeCSS.service_text}>
               <h4 className={HomeCSS.service_head}>Free & Next Day Delivery</h4>
@@ -217,10 +216,12 @@ const Home = () => {
 
           <div className={HomeCSS.service}>
             <div className={HomeCSS.service_icon}>
-              <img src="/rating.png" width="27px" alt="" />
+              <img src="/img/rating.png" width="27px" alt="" />
             </div>
             <div className={HomeCSS.service_text}>
-              <h4 className={HomeCSS.service_head}>100% Satisfaction Gurantee</h4>
+              <h4 className={HomeCSS.service_head}>
+                100% Satisfaction Gurantee
+              </h4>
               <p className={HomeCSS.service_info}>
                 The Organization of User-Friendly Analysis
               </p>
@@ -229,10 +230,12 @@ const Home = () => {
 
           <div className={HomeCSS.service}>
             <div className={HomeCSS.service_icon}>
-              <img src="/discount.png" width="25px" alt="" />
+              <img src="/img/discount.png" width="25px" alt="" />
             </div>
             <div className={HomeCSS.service_text}>
-              <h4 className={HomeCSS.service_head}>The Great Daily Deals Discount</h4>
+              <h4 className={HomeCSS.service_head}>
+                The Great Daily Deals Discount
+              </h4>
               <p className={HomeCSS.service_info}>
                 The Organization of User-Friendly Analysis
               </p>
@@ -241,93 +244,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={HomeCSS.section_4}>
-        <div>
-          <ul className={HomeCSS.company_infos}>
-            <li className={HomeCSS.details}>
-              <div>
-                <img
-                  src="/footer logo.png"
-                  width="100px"
-                  className={HomeCSS.brand}
-                  alt="footer-logo"
-                />
-              </div>
-
-              <ul className={HomeCSS.company_contact}>
-                <li className={HomeCSS.detail}>
-                  <div className={HomeCSS.detail_icon}>
-                    <img src="/call_icon.png" alt="" />
-                  </div>
-                  <div>
-                    <p>+234 812 2333 333</p>
-                  </div>
-                </li>
-                <li className={HomeCSS.detail}>
-                  <div className={HomeCSS.detail_icon}>
-                    <img src="/mail_icon.png" alt="" />
-                  </div>
-                  <div>
-                    <p>contact@themarketplace.com</p>
-                  </div>
-                </li>
-                <li className={HomeCSS.detail}>
-                  <div className={HomeCSS.detail_icon}>
-                    <img src="/website.png" alt="" />
-                  </div>
-                  <div>
-                    <p>www.themarketplace.com</p>
-                  </div>
-                </li>
-              </ul>
-            </li>
-            <li className={HomeCSS.locations}>
-              <h3>TOP CITIES</h3>
-
-              <ul>
-                <li>Lagos</li>
-                <li>Delta</li>
-                <li>Calabar</li>
-                <li>Port-Harcourt</li>
-                <li>Abuja</li>
-              </ul>
-            </li>
-            <li>
-              <h3>CATEGORIES</h3>
-
-              <ul>
-                <li>Vegetables</li>
-                <li>Groceries & Staples</li>
-                <li>Breakfast & Daily</li>
-                <li>Soft Drinks</li>
-                <li>Biscuit & Cookies</li>
-              </ul>
-            </li>
-
-            <li>
-              <h3>ABOUT US</h3>
-
-              <li>Company Information</li>
-              <li>Careers</li>
-              <li>Store Location</li>
-              <li>Affiliate Program</li>
-              <li>copyright</li>
-            </li>
-          </ul>
-        </div>
-
-        <div className={HomeCSS.footer}>
-          <div className={HomeCSS.copyrights}>
-            ©copyright 2020, Ninja Creative Studio, All rights reserved
-          </div>
-
-          <div className={HomeCSS.social_media}>
-            <div className={HomeCSS.facebook}>fb icon</div>
-            <div className={HomeCSS.instagram}>IG icon</div>
-            <div className={HomeCSS.twitter}>Twitter icon</div>
-          </div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

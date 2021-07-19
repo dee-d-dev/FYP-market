@@ -6,7 +6,7 @@ const ResetProcess = () => {
     <div className={ResetPasswordProcessCSS.container}>
       <div className={ResetPasswordProcessCSS.modal}>
         <img
-          src="/logo Copy.png"
+          src="/img/logo Copy.png"
           width="80px"
           alt=""
           className={ResetPasswordProcessCSS.logo}

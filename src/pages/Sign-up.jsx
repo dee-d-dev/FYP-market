@@ -8,7 +8,7 @@ const SignUp = () => {
         <div className={SignUpCSS.modal}>
           <div className={SignUpCSS.modal_section_1}>
             <div className={SignUpCSS.brand_Logo}>
-              <img src="/logo Copy.png" width="80px" alt="" />
+              <img src="/img/logo Copy.png" width="80px" alt="" />
             </div>
             <div className={SignUpCSS.modal_header}>
               <h2>Create an Account</h2>
@@ -64,8 +64,9 @@ const SignUp = () => {
             <div className={SignUpCSS.terms}>
               <input type="checkbox" name="terms" id="" />
               <p>
-                Yes, I understand and agree to the <a href="#">Marketplace Terms of service</a>,
-                including the <a href="#">User Agreement</a> and <a>Privacy Policy</a>.
+                Yes, I understand and agree to the{" "}
+                <a href="#">Marketplace Terms of service</a>, including the{" "}
+                <a href="#">User Agreement</a> and <a>Privacy Policy</a>.
               </p>
             </div>
           </div>

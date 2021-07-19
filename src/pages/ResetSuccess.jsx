@@ -6,7 +6,7 @@ const ResetSuccess = () => {
     <div className={ResetSuccessCSS.container}>
       <div className={ResetSuccessCSS.modal}>
         <img
-          src="/logo Copy.png"
+          src="/img/logo Copy.png"
           width="80px"
           alt=""
           className={ResetSuccessCSS.logo}

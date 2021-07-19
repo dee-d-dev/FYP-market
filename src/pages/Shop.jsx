@@ -5,7 +5,7 @@ const Shop = () => {
   return (
     <div>
       <div className={ShopCSS.header}>
-        <img src="/logo copy.png" width="80px" alt="" />
+        <img src="/img/logo copy.png" width="80px" alt="" />
 
         <ul>
           <li>Home</li>

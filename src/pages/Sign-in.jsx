@@ -6,7 +6,7 @@ const SignIn = () => {
   return (
     <div className={SignInCSS.container}>
       <div className={SignInCSS.brand_Logo}>
-        <img src="/logo.png" width="80px" alt="" />
+        <img src="/img/logo.png" width="80px" alt="" />
       </div>
 
       <div className={SignInCSS.modal}>
@@ -21,7 +21,7 @@ const SignIn = () => {
 
             <div className={SignInCSS.form_Input}>
               <div className={SignInCSS.userIcon}>
-                <img src="/user-icon.png" width="15px" alt="" />
+                <img src="/img/user-icon.png" width="15px" alt="" />
               </div>
               <input type="password" id="email address" />
             </div>
@@ -39,11 +39,11 @@ const SignIn = () => {
 
           <div className={SignInCSS.sign_In}>
             <button className={SignInCSS.google_Sign_In_Btn}>
-              <img src="/google.png" width="25px" alt="" />
+              <img src="/img/google.png" width="25px" alt="" />
               <p>Sign in with Google</p>
             </button>
             <button className={SignInCSS.facebook_Sign_In_Btn}>
-              <img src="/download.svg" width="25px" alt="" />
+              <img src="/img/download.svg" width="25px" alt="" />
               <p>Sign in with Facebook</p>
             </button>
             <a href="/" className={SignInCSS.forgot_password}>
