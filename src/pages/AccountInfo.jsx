@@ -60,7 +60,9 @@ const AccountInfo = () => {
 
             <div className={AccCSS.upload}>
               <div className={AccCSS.upload_btn}>
-                <button>Upload your picture here</button>
+                <button>
+                  <span>Upload</span> your picture here
+                </button>
               </div>
               <div className={AccCSS.upload_svg}>
                 <img src="/img/upload.svg" alt="" />

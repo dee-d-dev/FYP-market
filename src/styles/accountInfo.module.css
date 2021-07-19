@@ -33,7 +33,7 @@
 
 .acc_functions ul {
   background-color: #fff;
-  padding: 1rem 0 1rem 2rem;
+  padding: 1rem 0 .1rem 2rem;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -101,6 +101,14 @@
   background: transparent;
   border: 2px solid #cdcbcb;
   border-radius: 10px;
+  font-style: italic;
+  color: #aeaeae;
+}
+
+.upload_btn button span{
+    color: #08862d;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .upload_svg {
