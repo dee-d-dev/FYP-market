@@ -9,8 +9,11 @@ import ResetPasswordProcess from "./pages/ResetPasswordProcess";
 import ResetSuccess from "./pages/ResetSuccess";
 import Shop from "./pages/Shop";
 import AccountInfo from "./pages/AccountInfo";
-
-
+import AdminDashboard from "./pages/AdminDashboard";
+import Sidebar from "./components/Sidebar";
+import AdminProduct from "./pages/AdminProduct";
+import AdminNavbar from "./components/AdminNavbar";
+import Admin from "./pages/Admin";
 
 function App() {
   return (
@@ -49,8 +52,20 @@ function App() {
             <Shop />
           </Route>
 
-          <Route path="/AccountInfo">
-            <AccountInfo/>
+          <Route path="/accountinfo">
+            <AccountInfo />
+          </Route>
+          <Route path="/admindashboard">
+            <AdminDashboard />
+          </Route>
+          <Route path="/sidebar">
+            <Sidebar />
+          </Route>
+          <Route path="/adminproduct">
+            <AdminProduct />
+          </Route>
+          <Route path="/admin">
+            <Admin/>
           </Route>
         </Switch>
       </Router>

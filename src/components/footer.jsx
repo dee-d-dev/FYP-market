@@ -11,7 +11,7 @@ const Footer = () => {
             <li className={HomeCSS.details}>
               <div>
                 <img
-                  src="/footer logo.png"
+                  src="/img/footer logo.png"
                   width="100px"
                   className={HomeCSS.brand}
                   alt="footer-logo"
