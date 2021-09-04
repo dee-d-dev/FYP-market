@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-select {
+.product_header select {
   background-color: #faf6fd;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
@@ -24,7 +24,15 @@ select {
   margin-left: 2rem;
 }
 
-input {
+option {
+  border-radius: 2rem;
+}
+
+option:hover {
+  background-color: red;
+}
+
+.product_header input {
   background-color: #faf6fd;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
@@ -34,30 +42,29 @@ input {
   margin-left: 4rem;
 }
 
-
-.product_items{
-    display: red;
-    padding: 1rem 0;
+.product_items {
+  display: red;
+  padding: 1rem 0;
 }
 
-.item{
-    background-color: white;
-    width: 11rem;
-    border-radius: .5rem;
-    padding: .4rem 1rem;
-    text-align: center;
+.item {
+  background-color: white;
+  width: 11rem;
+  border-radius: 0.5rem;
+  padding: 0.4rem 1rem;
+  text-align: center;
 }
 
-.item_title{
-    font-weight: 500;
+.item_title {
+  font-weight: 500;
 }
 
-.item_price{
-    margin-bottom: .5rem;
-    font-weight: 600;
+.item_price {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
-.item_prev_price{
-    color: #808080;
-    text-decoration: line-through;
+.item_prev_price {
+  color: #808080;
+  text-decoration: line-through;
 }

@@ -33,9 +33,16 @@ const SignUp = () => {
                 <input type="email" name="email" id="email" />
               </div>
 
-              <div className={SignUpCSS.form_input}>
-                <label htmlFor="password">Password</label>
-                <input type="password" name="password" id="password" />
+              <div className={SignUpCSS.form_third_row}>
+                <div className={SignUpCSS.form_input}>
+                  <label htmlFor="password">Password</label>
+                  <input type="password" name="password" id="password" />
+                </div>
+
+                <div className={SignUpCSS.form_input}>
+                  <label htmlFor="password">Password</label>
+                  <input type="password" name="password" id="password" />
+                </div>
               </div>
 
               <div className={SignUpCSS.form_input}>
@@ -64,9 +71,7 @@ const SignUp = () => {
             <div className={SignUpCSS.terms}>
               <input type="checkbox" name="terms" id="" />
               <p>
-                Yes, I understand and agree to the{" "}
-                <a href="#">Marketplace Terms of service</a>, including the{" "}
-                <a href="#">User Agreement</a> and <a>Privacy Policy</a>.
+                By signing up you accept our <a href="/">Terms and Conditions &<br />  Privacy Policy.</a>
               </p>
             </div>
           </div>

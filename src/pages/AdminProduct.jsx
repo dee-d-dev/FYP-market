@@ -9,10 +9,13 @@ const AdminProduct = () => {
 
         <div>
           <select name="" id="">
-            <option value="val1" selected disabled hidden>
+            <option value="val1" selected disabled>
               Category Type
             </option>
             <option value="">Vegetables</option>
+            <option value="">Fruits</option>
+            <option value="">Meat</option>
+            <option value="">Grains</option>
           </select>
         </div>
         <div>
