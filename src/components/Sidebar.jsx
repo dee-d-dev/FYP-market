@@ -16,34 +16,34 @@ const Sidebar = () => {
         );
       })} */}
       <ul>
-        <li>
+        <Link className={SidebarCSS.li}>
           <img src="/img/home.svg" alt="" />
           <p>Dashboard</p>
-        </li>
-        <li>
+        </Link>
+        <Link className={SidebarCSS.li} to="/adminproduct">
           <img src="/img/products.svg" alt="" />
           <p>Products</p>
-        </li>
-        <li>
+        </Link>
+        <Link className={SidebarCSS.li}>
           <img src="/img/category.svg" alt="" />
           <p>Categories</p>
-        </li>
-        <li>
+        </Link>
+        <Link className={SidebarCSS.li}>
           <img src="/img/order.svg" alt="" />
           <p>Orders</p>
-        </li>
-        <li>
+        </Link>
+        <Link className={SidebarCSS.li}>
           <img src="/img/customer.svg" alt="" />
           <p>Customers</p>
-        </li>
-        <li>
+        </Link>
+        <Link className={SidebarCSS.li}>
           <img src="/img/coupon.svg" alt="" />
           <p>Coupons</p>
-        </li>
-        <li>
+        </Link>
+        <Link className={SidebarCSS.li}>
           <img src="/img/settings.svg" alt="" />
           <p>Settings</p>
-        </li>
+        </Link>
       </ul>
 
       <h3>Log Out</h3>

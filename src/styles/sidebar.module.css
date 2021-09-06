@@ -3,22 +3,22 @@
   /* width: 19%; */
   padding: 2rem 4rem;
   margin: 0;
-
+  flex: 1;
   border-right: 2px solid rgba(116, 113, 113, 0.637);
 }
 
-.body li {
+.body .li {
   margin-bottom: 1.5rem;
   list-style: none;
   display: flex;
 }
 
-.body li p {
+.body .li p {
   margin-left: 1.5rem;
   font-weight: 600;
 }
 
-.body li img {
+.body .li img {
   width: 20px;
 }
 

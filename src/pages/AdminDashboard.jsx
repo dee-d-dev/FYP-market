@@ -74,7 +74,6 @@ const AdminDashboard = () => {
                     title: {
                       display: false,
                     },
-                    
                   }}
                 />
               </div>

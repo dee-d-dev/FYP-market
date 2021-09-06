@@ -3,7 +3,7 @@
   background-color: #faf6fd;
   height: 40rem;
   width: 80%;
-  margin-left: 20%;
+  /* flex: 4; */
 }
 .product_header {
   display: flex;

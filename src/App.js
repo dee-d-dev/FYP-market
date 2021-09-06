@@ -14,6 +14,7 @@ import Sidebar from "./components/Sidebar";
 import AdminProduct from "./pages/AdminProduct";
 import AdminNavbar from "./components/AdminNavbar";
 import Admin from "./pages/Admin";
+import AdminAddProducts from "./pages/AdminAddProducts";
 
 function App() {
   return (
@@ -66,6 +67,9 @@ function App() {
           </Route>
           <Route path="/admin">
             <Admin/>
+          </Route>
+          <Route path="/addproduct">
+            <AdminAddProducts/>
           </Route>
         </Switch>
       </Router>
