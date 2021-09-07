@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const AdminNavbar = () => {
   return (
     <div className={Navbar.body}>
-      <div className={Navbar.left}>
+      <Link className={Navbar.left} to="/">
         <img src="/img/adminlogo.svg" alt="" />
-      </div>
+      </Link>
 
       <div className={Navbar.right}>
         <div className={Navbar.button}>
