@@ -9,6 +9,7 @@ import AdminAddProducts from "./AdminAddProducts";
 import AdminCategories from "./AdminCategories";
 import AdminOrders from "./AdminOrders";
 import AdminCustomers from "./AdminCustomers";
+import AdminSettings from "./AdminSettings";
 
 const Admin = () => {
   return (
@@ -21,7 +22,8 @@ const Admin = () => {
         {/* <AdminAddProducts/> */}
         {/* <AdminCategories/> */}
         {/* <AdminOrders /> */}
-        <AdminCustomers />
+        {/* <AdminCustomers /> */}
+        <AdminSettings/>
       </div>
       <Footer />
     </div>
