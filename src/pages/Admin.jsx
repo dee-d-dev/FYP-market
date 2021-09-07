@@ -17,13 +17,13 @@ const Admin = () => {
       <AdminNavbar />
       <div className={AdminCSS.body}>
         <Sidebar />
-        {/* <AdminDashboard /> */}
+        <AdminDashboard />
         {/* <AdminProduct/> */}
         {/* <AdminAddProducts/> */}
         {/* <AdminCategories/> */}
         {/* <AdminOrders /> */}
         {/* <AdminCustomers /> */}
-        <AdminSettings/>
+        {/* <AdminSettings/> */}
       </div>
       <Footer />
     </div>

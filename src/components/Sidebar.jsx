@@ -16,7 +16,7 @@ const Sidebar = () => {
         );
       })} */}
       <ul>
-        <Link className={SidebarCSS.li}>
+        <Link className={SidebarCSS.li} to="/admin">
           <img src="/img/home.svg" alt="" />
           <p>Dashboard</p>
         </Link>
@@ -24,23 +24,23 @@ const Sidebar = () => {
           <img src="/img/products.svg" alt="" />
           <p>Products</p>
         </Link>
-        <Link className={SidebarCSS.li}>
+        <Link className={SidebarCSS.li} to="/admincategories">
           <img src="/img/category.svg" alt="" />
           <p>Categories</p>
         </Link>
-        <Link className={SidebarCSS.li}>
+        <Link className={SidebarCSS.li} to="/adminorder">
           <img src="/img/order.svg" alt="" />
           <p>Orders</p>
         </Link>
-        <Link className={SidebarCSS.li}>
+        <Link className={SidebarCSS.li} to="/admincustomers">
           <img src="/img/customer.svg" alt="" />
           <p>Customers</p>
         </Link>
-        <Link className={SidebarCSS.li}>
+        <Link className={SidebarCSS.li} to="#">
           <img src="/img/coupon.svg" alt="" />
           <p>Coupons</p>
         </Link>
-        <Link className={SidebarCSS.li}>
+        <Link className={SidebarCSS.li} to="/adminsettings">
           <img src="/img/settings.svg" alt="" />
           <p>Settings</p>
         </Link>

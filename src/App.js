@@ -16,6 +16,9 @@ import AdminNavbar from "./components/AdminNavbar";
 import Admin from "./pages/Admin";
 import AdminAddProducts from "./pages/AdminAddProducts";
 import AdminCategories from "./pages/AdminCategories";
+import AdminOrders from "./pages/AdminOrders";
+import AdminCustomers from "./pages/AdminCustomers";
+import AdminSettings from "./pages/AdminSettings";
 
 function App() {
   return (
@@ -67,13 +70,22 @@ function App() {
             <AdminProduct />
           </Route>
           <Route path="/admin">
-            <Admin/>
+            <Admin />
           </Route>
           <Route path="/addproduct">
-            <AdminAddProducts/>
+            <AdminAddProducts />
           </Route>
           <Route path="/admincategories">
-            <AdminCategories/>
+            <AdminCategories />
+          </Route>
+          <Route path="/adminorder">
+            <AdminOrders />
+          </Route>
+          <Route path="/admincustomers">
+            <AdminCustomers />
+          </Route>
+          <Route path="/adminsettings">
+            <AdminSettings/>
           </Route>
         </Switch>
       </Router>

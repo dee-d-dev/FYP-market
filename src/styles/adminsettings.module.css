@@ -1,3 +1,7 @@
+.outerbody{
+  display: flex;
+}
+
 .body {
   width: 80%;
   background-color: #faf6fd;
