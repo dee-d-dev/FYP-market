@@ -6,6 +6,9 @@ import AdminCSS from "../styles/admin.module.css";
 import Footer from "../components/footer";
 import AdminProduct from "./AdminProduct";
 import AdminAddProducts from "./AdminAddProducts";
+import AdminCategories from "./AdminCategories";
+import AdminOrders from "./AdminOrders";
+import AdminCustomers from "./AdminCustomers";
 
 const Admin = () => {
   return (
@@ -15,9 +18,12 @@ const Admin = () => {
         <Sidebar />
         {/* <AdminDashboard /> */}
         {/* <AdminProduct/> */}
-        <AdminAddProducts/>
+        {/* <AdminAddProducts/> */}
+        {/* <AdminCategories/> */}
+        {/* <AdminOrders /> */}
+        <AdminCustomers />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

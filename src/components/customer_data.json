@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "Name": "James .L. Ola",
+    "Contacts": "08134356625",
+    "Total Order": 30,
+    "Total Amount": "#3000.00",
+    "Date": "22nd Jul 2020"
+  },
+  {
+    "id": 2,
+    "Name": "Olamide .A. Adeyemi",
+    "Contacts": "08134356625",
+    "Total Order": 23,
+    "Total Amount": "#2000.00",
+    "Date": "22nd Jul 2020"
+  },
+  {
+    "id": 3,
+    "Name": "Abolade . D. David",
+    "Contacts": "08134356625",
+    "Total Order": 66,
+    "Total Amount": "#8000.00",
+    "Date": "22nd Jul 2020"
+  },
+  {
+    "id": 4,
+    "Name": "Gabriel .L. Folayemi",
+    "Contacts": "08134356625",
+    "Total Order": 78,
+    "Total Amount": "#5000.00",
+    "Date": "22nd Jul 2020"
+  }
+]

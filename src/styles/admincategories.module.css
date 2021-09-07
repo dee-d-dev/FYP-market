@@ -1,0 +1,42 @@
+.body {
+  width: 80%;
+  background-color: #faf6fd;
+  padding: 0.5rem 1rem;
+}
+
+.header {
+  background-color: #fff;
+  padding: 1.5rem 4rem 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.header select {
+  padding: 0.8rem 1.5rem;
+  background-color: #faf6fd;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 15rem;
+}
+
+.header input {
+  padding: .8rem 1.5rem;
+  background-color: #faf6fd;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 25rem;
+}
+
+.header button {
+  background-color: #08862d;
+  border: none;
+  outline: none;
+  color: white;
+  padding: .8rem 1.5rem;
+  border-radius: 5px;
+}

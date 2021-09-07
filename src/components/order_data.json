@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "numbers": 1,
+    "time": "Fruits",
+    "date": "fruits",
+    "address": "grocery",
+    "amount": "grocery",
+    "payment_method": "grocery"
+  },
+  {
+    "id": 2,
+    "numbers": "img",
+    "time": "Vegetables",
+    "date": "vegetables",
+    "address": "grocery",
+    "amount": "grocery",
+    "payment_method": "grocery"
+  },
+  {
+    "id": 3,
+    "numbers": "img",
+    "time": "Grains",
+    "date": "grains",
+    "address": "Foodstuff",
+    "amount": "Foodstuff",
+    "payment_method": "Foodstuff"
+  },
+  {
+    "id": 4,
+    "numbers": "img",
+    "time": "Meat",
+    "date": "meat",
+    "address": "Livestock",
+    "amount": "Livestock",
+    "payment_method": "Livestock"
+  }
+]

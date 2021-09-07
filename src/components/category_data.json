@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "Image": "img",
+    "Name": "Fruits",
+    "Slug": "fruits",
+    "Type": "grocery"
+  },
+  {
+    "id": 2,
+    "Image": "img",
+    "Name": "Vegetables",
+    "Slug": "vegetables",
+    "Type": "grocery"
+  },
+  {
+    "id": 3,
+    "Image": "img",
+    "Name": "Grains",
+    "Slug": "grains",
+    "Type": "Foodstuff"
+  },
+  {
+    "id": 4,
+    "Image": "img",
+    "Name": "Meat",
+    "Slug": "meat",
+    "Type": "Livestock"
+  }
+]
