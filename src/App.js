@@ -1,12 +1,16 @@
 import "./App.css";
 import GlobalFonts from './fonts/fonts'
 import GlobalStyles from './GlobalStyles'
-import Home from "./pages/Home/Home";
-import SignIn from "./pages/Sign-in/Sign-in";
-import SignUp from "./pages/Sign-up/Sign-up";
-import ShopProduct from './pages/ShopProduct/ShopProduct';
-import ResetPassword from "./pages/ResetPassword/ResetPassword";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import Home from "./pages/Home/Home"
+import SignIn from "./pages/Sign-in/Sign-in"
+import SignUp from "./pages/Sign-up/Sign-up"
+import ShopProduct from './pages/ShopProduct/ShopProduct'
+import Thank from './pages/Thank/Thank'
+import Check from './pages/CheckOut/CheckOut'
+import Cart from './pages/Cart/Cart'
+// import AccountInfo from './pages/AccountInfo/AccontInfo'
+import ResetPassword from "./pages/ResetPassword/ResetPassword"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 
 function App() {
@@ -16,12 +20,20 @@ function App() {
         <GlobalFonts/>
         <GlobalStyles/>
         <Switch>
+          <Route path="/check">
+            <Check />
+          </Route>
+
           <Route path="/" exact>
-            <Home />
+            <Cart />
+          </Route>
+          
+          <Route path="/thank" >
+            <Thank />
           </Route>
 
            <Route path="/Sign-in">
-            <SignIn />
+            <SignIn />design course
           </Route>
 
           <Route path="/Sign-up">

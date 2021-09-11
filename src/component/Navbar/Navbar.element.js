@@ -7,7 +7,7 @@ export const Nav = styled.nav`
     background: #EFF7FA;
     box-shadow: 0px 2px 16px rgba(100, 100, 100, 0.498039);
     border-top: 3px solid #08862D;
-    height: 144px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
-    height: 144px;
+    height: 100px;
     ${Container}
 `;
 
@@ -36,15 +36,15 @@ export const NavLogo = styled(Link)`
     display:flex;
     align-items:center;
     justify-content: center;
-    height: 100%;
+    height: 100px;
 `;
 
 export const NavImage = styled.div `
     display: flex;
     justify-content: center;
-    margin-top: 3.3rem;
+    /* margin-top: 3.3rem; */
     width: 170px;
-    height: 100%;
+    height: 50px;
     background-image: url(${navImage});
     background-repeat: no-repeat;
     /* background-size:cover; */

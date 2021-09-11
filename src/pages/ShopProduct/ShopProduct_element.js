@@ -200,7 +200,6 @@ export const SearchInput = styled.input `
     outline: unset !important;
 
 `
-
 export const SearchBack = styled.img `
 
 `
