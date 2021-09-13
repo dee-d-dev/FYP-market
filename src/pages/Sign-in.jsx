@@ -26,9 +26,9 @@ const SignIn = () => {
               <input type="password" id="email address" />
             </div>
 
-            <button type="submit" className={SignInCSS.login_Btn}>
+            <Link type="submit" to="/shop" className={SignInCSS.login_Btn}>
               Continue
-            </button>
+            </Link>
           </form>
 
           <div className={SignInCSS.segment}>
