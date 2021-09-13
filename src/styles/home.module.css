@@ -111,6 +111,10 @@ a {
   border-radius: 0.5rem;
 }
 
+.create_acc_btn a {
+  color: #fff;
+}
+
 .d_b_top {
   background: linear-gradient(rgba(17, 15, 15, 0.5), rgba(0, 0, 0, 0.5)),
     url("/src/Image.png");
